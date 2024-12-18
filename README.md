@@ -16,6 +16,14 @@ $ vagrant plugin install vagrant-env
 
 To install an older version of the plugin use `vagrant plugin install vagrant-env --plugin-version VERSION`
 
+## Building and installing from source
+```sh
+git clone https://github.com/Meantub/vagrant-env.git
+cd ./vagrant-env
+gem build vagrant-env.gemspec
+vagrant plugin install ./vagrant-env-{VERSION}.gem
+```
+
 ## Usage
 
 After installing, add your application configuration to your .env file in the root of your project

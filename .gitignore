@@ -16,3 +16,4 @@ mkmf.log
 .envrc
 .direnv
 .idea
+*.gem
