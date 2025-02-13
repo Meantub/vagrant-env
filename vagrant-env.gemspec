@@ -20,5 +20,5 @@ Gem::Specification.new do |spec|
                       lib/vagrant-env/plugin.rb)
   spec.require_paths = ["lib"]
   spec.add_runtime_dependency     "dotenv", "= 2.8.1"
-  spec.add_development_dependency "bundler", "= 2.4.10"
+  spec.add_development_dependency "bundler", "= 2.4.19"
 end
